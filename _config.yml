@@ -4,5 +4,7 @@ pygments: true
 permalink: /:year/:month/:day/:title
 paginate: 1
 paginate_path: "blog/page/:num"
-
-baseurl: /farrelley.com
+safe: true
+lsi: false
+pygments: true
+baseurl: /shaunfarrell.com
