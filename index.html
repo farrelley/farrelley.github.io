@@ -1,0 +1,61 @@
+---
+layout: default
+title: shaunfarrell.com
+---
+
+    <div class="jumbotron">
+        <h2>Just about everything you need to know!</h2>
+        <p class="lead">I am a <a href="https://github.com/farrelley">developer</a>, <a href="http://www.pintlabs.com/">co-founder</a>, 
+          <a href="http://www.untappd.com/">craft beer drinker</a>, <a href="http://meetup.com/triangleapi">user group organizer</a>, 
+          <a href="http://connect.garmin.com/profile/farrelley">runner</a>, and sometimes and <a href="http://www.angrylittleelf.com/">angry little elf</a>.</p>
+    </div>
+
+    <hr>
+
+    <div class="row-fluid marketing">
+        <div class="span6">
+            <i class="icon-rss icon-2x"></i><br />
+            <ul class="unstyled">
+            {% for post in site.posts limit:5 %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="span6">
+          <i class="icon-phone icon-2x"></i><br />
+          <p><a href="">Twitter</a> is the best way to contact me. If you 
+            need more than 140 characters 
+            then you next best bet is <a href="mailto:farrelley@gmail.com">E-Mail</a>. You can also find 
+            me on <a href="skype:farrelley">Skype</a>, 
+            <a href="https://plus.google.com/u/1/111181233937565878058">Google+</a>, IRC (farrelley), and 
+            <a href="https://github.com/farrelley">GitHub</a></p>
+            <p>If you really want to know more about me checkout my <a href="/resume">Resumé</a> 
+            or <a href="http://www.linkedin.com/in/farrelley">LinkedIn</a></p>
+        </div>
+    </div>
+      
+    <div class="row-fluid marketing">
+        <div class="span6">
+          <i class="icon-code icon-2x"></i><br />
+          <ul class="unstyled">
+            <li><a href="http://elastica.io/">Elastica</a> (contributor) - A PHP client for elasticsearch.</li>
+          </ul>
+        </div>
+
+        <div class="span6">
+          <i class="icon-link icon-2x"></i><br />
+          <ul class="unstyled">
+            <li><a href="https://joind.in/user/view/88">joind.in</a> - My joind.in speaker profile</li>
+            <li><a href="https://www.runscope.com/">Runscope</a> - Stop fighting with your API integrations.</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="row-fluid marketing">
+        <div class="span12">
+          <p>Like Beer? Checkout <a href="http://www.pintlabs.com/">PintLabs</a>, <a href="http://www.brewerydb.com/">BreweryDB</a>, 
+              <a href="http://www.brewerymap.com/">BreweryMap</a>, or download our shit on <a href="https://itunes.apple.com/us/app/brewerymap/id445354940?mt=8&ls=1">iOS</a> and 
+              <a href="https://play.google.com/store/apps/details?id=pintlabs.brewerymap">Android</a></p>
+        </div>
+    </div>
