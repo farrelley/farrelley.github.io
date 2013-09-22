@@ -1,9 +1,7 @@
 ---
-title: Inaugural Triangle Api Meetup
-lead: Open Data, Transparency, Public Trust, and Efficiency
+title: "Inaugural Triangle Api Meetup"
 layout: post
 tags: [apis, government]
-time: 11:28:15
 ---
 
 The first [Triangle API][1] meetup is in the books and I am looking forward to meeting number two. It took some time to get organized and running but it's going to be worth every day that it was delayed. 

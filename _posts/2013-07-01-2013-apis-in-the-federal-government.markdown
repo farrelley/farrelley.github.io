@@ -1,9 +1,8 @@
 ---
 title: "APIs in the Federal Government"
-lead: Open Data, Transparency, Public Trust, and Efficiency
+lead: "Open Data, Transparency, Public Trust, and Efficiency"
 layout: post
 tags: [apis, government]
-time: 09:59:32
 ---
 Just after the 2009 Presidential Inauguration, President Obama said,
 
