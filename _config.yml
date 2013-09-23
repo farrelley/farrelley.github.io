@@ -5,4 +5,5 @@ paginate: 1
 paginate_path: "blog/page/:num"
 safe: true
 lsi: false
+
 baseurl: /shaunfarrell.com
